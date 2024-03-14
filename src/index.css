@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#messages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 100%;
+    scroll-behavior: smooth;
+    padding-bottom: 48px;
+  }
+
+  #messages>li {
+    padding: .5rem 1rem;
+    color: rgb(0, 0, 0);
+    background-color: #E3FEE0;
+  }
+
+  #messages>li:nth-child(odd) {
+    background: #fff;
+  }
+
