@@ -1,9 +1,16 @@
 import React from 'react';
+import Messages from './messages';
+import Input from './input';
+import ChatHeader from './ChatHeader';
 
 const Chat = () => {
     return (
-        <div className='flex-1 '>
-           <h1>Chat</h1> 
+        <div className=' chat flex-grow'>
+           
+           <ChatHeader/>
+           <Messages/>
+           <Input/>
+        
         </div>
     );
 }
